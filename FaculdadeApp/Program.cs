@@ -8,7 +8,7 @@ class Program
         var faculdade = new FaculdadeApp.FaculdadeApp(); // Cria uma instância da classe FaculdadeApp
 
         // Adicionando alunos
-        Aluno aluno1 = new Aluno { Nome = "Maria", Matricula = "2024001" };
+        Aluno aluno1 = new Aluno { Nome = "Maria", Matricula = "2024002" };
         Aluno aluno2 = new Aluno { Nome = "João", Matricula = "2024002" };
         faculdade.AdicionarAluno(aluno1);
         faculdade.AdicionarAluno(aluno2);
